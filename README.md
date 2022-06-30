@@ -60,7 +60,7 @@ Concernant les producteurs locaux, l’établissement travaille depuis des anné
 
 Si la partie back est implémentée, elle devra être développée en PHP, en lien avec une base de données MySQL/MariaDB.
 
-** Description de l'existant
+**Description de l'existant**
 
 ##### Un logo :
 
