@@ -1,5 +1,7 @@
 # Food-and-drink
-![zoning](./Images/zoning%20480px.png)
+![zoning 480px](./Images/zoning%20480px.png)
+![zoning 1024px](./Images/zoning%201024px.png)
+![zoning 1440px](./Images/zoning%201440px.png)
 ## Objectifs
 
 > Il s’agit d’un projet fictif, toute relation avec un projet existant ne serait que fortuite.
