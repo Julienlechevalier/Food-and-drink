@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
