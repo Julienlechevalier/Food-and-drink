@@ -65,10 +65,6 @@ body {
     color: white;
 }
 
-.back-color-black {
-    background-color: #1a1a1a;
-}
-
-.opacity {
-    opacity: 0.6;
+.b {
+    border: groove;
 }
