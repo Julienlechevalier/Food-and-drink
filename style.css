@@ -23,6 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .flex-column-center {
@@ -67,5 +68,4 @@ body {
 
 .b {
     border: groove;
-    border: color #dee2e6;
 }
