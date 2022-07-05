@@ -25,6 +25,12 @@ body {
     background-attachment: fixed;
 }
 
+.back-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .flex-column-center {
     display: flex;
     flex-direction: column;
@@ -67,4 +73,58 @@ body {
 
 .b {
     border: groove;
+}
+
+.back-color-orange {
+    background-color: #f05f40;
+}
+
+@media (min-width: 1024px) {
+    .blocimages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "image1 image2 image3";
+    }
+
+    .icone-max {
+        width: 35vw;
+        height: 30vh;
+    }
+
+    .icone-min {
+        width: 22vw;
+        height: 30vh;
+    }
+}
+
+@media (min-width: 1440px) {
+    .flexwrap {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10vh;
+    }
+
+    .blocimages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "image1 image2 image3";
+    }
+
+    .flexwrap-center {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .icone-margin-left {
+        margin-left: 10vh;
+    }
+
+    .icone-margin-right {
+        margin-right: 10vh;
+    }
 }
