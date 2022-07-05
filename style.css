@@ -23,6 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .flex-column-center {
@@ -63,4 +64,12 @@ body {
 
 .color-white {
     color: white;
+}
+
+.back-color-black {
+    background-color: #1a1a1a;
+}
+
+.opacity {
+    opacity: 0.6;
 }
