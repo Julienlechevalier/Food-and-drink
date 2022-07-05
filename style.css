@@ -57,7 +57,16 @@ p {
     opacity:0.5
 }
 
+#ferme a{
+    color: var(--bs-body-color);
+    border-color: #dee2e6;
+}
+
 .color-black-bold {
     color: black;
     font-weight: bold;
+}
+
+.border_groove {
+    border: groove;
 }
