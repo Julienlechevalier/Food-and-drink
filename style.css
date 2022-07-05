@@ -3,17 +3,23 @@
     margin: 0;
 }
 
-body{
+body {
     width: 100vw;
 }
 
-p {
-    margin-left: 10%;
-    margin-right: 10%;
+.margin {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.back1 {
-    background-image: url(Images/Cuisinefraicheur.jpg);
+.font-nautigal {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'The Nautigal', cursive;
+    font-size: xx-large;
+}
+
+.back-cover-image {
+    background-image: url(Images/restauration.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,7 +31,7 @@ p {
     text-align: center;
 }
 
-.icone {
+.icone-min {
     width: 55vw;
     height: 30vh;
 }
@@ -35,7 +41,7 @@ p {
     height: 30vh;
 }
 
-.icone2 {
+.icone-max {
     width: 90vw;
     height: 30vh;
 }
@@ -45,28 +51,21 @@ p {
     padding-bottom: 20vh;
 }
 
-#ferme {
-    position:relative;
-}
-
-.hover {
-    position:absolute; top:0; left:0; width:100%; height:100%; opacity:0;
-}
-
-#ferme:hover .hover {
-    opacity:0.5
-}
-
-#ferme a{
-    color: var(--bs-body-color);
-    border-color: #dee2e6;
-}
-
 .color-black-bold {
     color: black;
     font-weight: bold;
 }
 
-.border_groove {
+.bold-uppercase {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.color-white {
+    color: white;
+}
+
+.b {
     border: groove;
+    border: color #dee2e6;
 }
